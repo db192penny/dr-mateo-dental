@@ -28,10 +28,6 @@ export default function About() {
                 quality={100}
                 priority
               />
-              {/* Placeholder badge */}
-              <div className="absolute top-4 right-4 bg-black/70 text-white px-4 py-2 rounded-lg text-sm font-semibold backdrop-blur-sm">
-                High-res photo coming soon
-              </div>
             </div>
           </div>
 
