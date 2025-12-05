@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.drgeoffmateo.com)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --no-src-dir --import-alias \"@/*\" --no-git)",
+      "Bash(npm init -y)",
+      "Bash(npm install next@latest react@latest react-dom@latest typescript @types/react @types/node @types/react-dom tailwindcss postcss autoprefixer lucide-react)",
+      "Bash(npx tailwindcss init -p)",
+      "Bash(npm run dev)",
+      "Bash(npm uninstall tailwindcss)",
+      "Bash(npm install tailwindcss@^3.4.1 postcss@^8.4.33 autoprefixer@^10.4.16)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3002)",
+      "Read(//private/var/folders/**)",
+      "Bash(curl -s https://www.drgeoffmateo.com/)",
+      "Read(//Users/davidbirnbaum/Documents/**)",
+      "Bash(curl -s \"https://images.squarespace-cdn.com/content/v1/6707eb4582401378b175e426/a69eb01d-cc47-4b2b-a286-792f1be8e3c3/Screenshot+2025-03-30+at+9.21.42+PM.png\" -o /Users/davidbirnbaum/dr-mateo-dental/public/images/dr-mateo.jpg)",
+      "Bash(curl -s \"https://images.squarespace-cdn.com/content/v1/6707eb4582401378b175e426/a69eb01d-cc47-4b2b-a286-792f1be8e3c3/Screenshot+2025-03-30+at+9.21.42+PM.png?format=original\" -o /Users/davidbirnbaum/dr-mateo-dental/public/images/dr-mateo.jpg)",
+      "Bash(curl -s \"https://images.squarespace-cdn.com/content/v1/6707eb4582401378b175e426/a69eb01d-cc47-4b2b-a286-792f1be8e3c3/Screenshot+2025-03-30+at+9.21.42+PM.png?format=2500w\" -o /Users/davidbirnbaum/dr-mateo-dental/public/images/dr-mateo.jpg)",
+      "Bash(curl -s \"https://images.squarespace-cdn.com/content/v1/6707eb4582401378b175e426/8546b8a3-eb81-4c98-9da6-43e7127640fc/Screenshot+2025-05-01+at+4.41.17+PM.png?format=2500w\" -o /Users/davidbirnbaum/dr-mateo-dental/public/images/dr-mateo-alt.jpg)",
+      "Bash(curl -s \"https://images.squarespace-cdn.com/content/v1/6707eb4582401378b175e426/8546b8a3-eb81-4c98-9da6-43e7127640fc/Screenshot+2025-05-01+at+4.41.17+PM.png\" -o /Users/davidbirnbaum/dr-mateo-dental/public/images/dr-mateo.png)",
+      "Bash(curl -s \"https://images.squarespace-cdn.com/content/v1/6707eb4582401378b175e426/a69eb01d-cc47-4b2b-a286-792f1be8e3c3/Screenshot+2025-03-30+at+9.21.42+PM.png\" -o /Users/davidbirnbaum/dr-mateo-dental/public/images/dr-mateo.png)",
+      "Bash(curl -s \"https://images.squarespace-cdn.com/content/v1/6707eb4582401378b175e426/a69eb01d-cc47-4b2b-a286-792f1be8e3c3/Screenshot+2025-03-30+at+9.21.42+PM.png?format=1500w\" -o /Users/davidbirnbaum/dr-mateo-dental/public/images/dr-mateo.png)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
